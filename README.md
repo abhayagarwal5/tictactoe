@@ -7,11 +7,14 @@ The default template project for [nano-react-app](https://github.com/nano-react-
 
 ## Online deployed
 
-You can use surge.sh website and this project is deployed to
+- You can use surge.sh website, install using:
 
 ```
-tic-tac-toe-game-abhay.surge.sh
+- npm install --global surge
+- surge login
 ```
+
+This project is deployed to [tic-tac-toe-game-abhay.surge.sh](https://tic-tac-toe-game-abhay.surge.sh/)
 
 ## Custom port
 
