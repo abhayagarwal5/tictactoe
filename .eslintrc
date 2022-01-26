@@ -1,8 +1,10 @@
 {
   "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
+    "eslint",
+    "prettier"
+  ],
+  "plugins": [
+    "react-hooks"
   ],
   "env": {
     "browser": true
@@ -32,6 +34,13 @@
     ],
     "react/no-array-index-key": [
       0
-    ]
+    ],
+    "arrow-body-style": [
+      0
+    ],
+    "prefer-arrow-callback": [
+      0
+    ],
+    "react/function-component-definition": "off"
   }
 }
